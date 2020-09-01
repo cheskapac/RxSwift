@@ -24,7 +24,7 @@ extension Target {
 
 let package = Package(
   name: "RxSwift",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v10)],
   products: ([
     [
       .library(name: "RxSwift", type: .dynamic, targets: ["RxSwift"]),
